@@ -3,12 +3,38 @@
 [![Build Status](https://travis-ci.org/thisissoon/angular-input-confirm.svg?branch=master)](https://travis-ci.org/thisissoon/angular-input-confirm)
 [![Coverage Status](https://coveralls.io/repos/thisissoon/angular-input-confirm/badge.svg)](https://coveralls.io/r/thisissoon/angular-input-confirm)
 
+## Install
 
+```
+bower install --save angular-input-confirm
+```
 
+## Usage
+
+1. Inject the directive into your app
+
+  ```js
+  var myApp = angular.module('myApp', ['sn.inputConfirm']);
+  ```
+
+2. Use directive in your form
+
+  ```html
+  // normal password entry
+  <input type="password"
+         name="password"
+         ng-model="password">
+
+  // confirm password entry
+  <input type="password"
+         name="password_confirm"
+         ng-model="password_confirm"
+         sn-input-confirm="password">
+  ```
 
 ---
 
-This project structure is based on the [angular-seed](https://github.com/angular/angular-seed) application skeleton for a typical [AngularJS](http://angularjs.org/) web app.
+This project structure is based on the [angular-start](https://github.com/thisissoon/angular-start) application skeleton for a typical [AngularJS](http://angularjs.org/) web app.
 
 The project is preconfigured to install the Angular framework and a bunch of development and testing tools for instant web development gratification.
 
