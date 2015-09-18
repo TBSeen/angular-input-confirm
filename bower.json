@@ -1,7 +1,7 @@
 {
   "name": "angular-input-confirm",
   "description": "Simple angular directive to validate a confirmation input field.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://github.com/thisissoon/angular-input-confirm",
   "license": "MIT",
   "private": false,
