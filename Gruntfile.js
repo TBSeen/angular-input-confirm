@@ -185,7 +185,7 @@ module.exports = function (grunt) {
 
     concat: {
       options: {
-        sourceMap: true,
+        sourceMap: false,
         separator: ';',
         banner: '/*! <%= pkg.name %> - v<%= pkg.version %> - ' +
         '<%= grunt.template.today(\'yyyy-mm-dd\') %> */\n'
@@ -202,7 +202,7 @@ module.exports = function (grunt) {
 
     uglify: {
       options: {
-        sourceMap: true,
+        sourceMap: false,
         sourceMapIncludeSources: true,
         enclose: { window: 'window' },
         banner: '/*! <%= pkg.name %> - v<%= pkg.version %> - ' +
