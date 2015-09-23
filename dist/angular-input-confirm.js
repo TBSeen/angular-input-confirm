@@ -1,4 +1,4 @@
-/*! angular-input-confirm - v0.1.1 - 2015-09-18 */
+/*! angular-input-confirm - v0.1.2 - 2015-09-23 */
 angular.module('config', [])
 
 .constant('bower', {name:'angular-input-confirm',description:'',version:'0.1.0',homepage:'https://github.com/thisissoon/angular-input-confirm',license:'MIT',private:false,dependencies:{angular:'~1.3.15'},devDependencies:{'angular-mocks':'~1.3.15'}})
@@ -56,5 +56,3 @@ angular.module('sn.inputConfirm', [
     };
   }
 ]);
-
-//# sourceMappingURL=angular-input-confirm.js.map
